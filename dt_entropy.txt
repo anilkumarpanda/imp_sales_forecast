@@ -1,28 +1,16 @@
 digraph Tree {
 node [shape=box] ;
-0 [label="n_store <= -1.0477\nentropy = 0.2762\nsamples = 378\nvalue = [360, 18]"] ;
-1 [label="avr_hair_care <= 1.6214\nentropy = 0.6153\nsamples = 46\nvalue = [39, 7]"] ;
+0 [label="Evening <= -1.3302\nentropy = 1.0\nsamples = 377\nvalue = [190, 187]"] ;
+1 [label="entropy = 0.0\nsamples = 31\nvalue = [31, 0]"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="avr_restaurant <= 1.2241\nentropy = 0.4537\nsamples = 42\nvalue = [38, 4]"] ;
-1 -> 2 ;
-3 [label="entropy = 0.2975\nsamples = 38\nvalue = [36, 2]"] ;
+2 [label="Morning <= -1.6455\nentropy = 0.9953\nsamples = 346\nvalue = [159, 187]"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="entropy = 0.0\nsamples = 16\nvalue = [16, 0]"] ;
 2 -> 3 ;
-4 [label="entropy = 1.0\nsamples = 4\nvalue = [2, 2]"] ;
+4 [label="n_hospital <= -0.0475\nentropy = 0.9871\nsamples = 330\nvalue = [143, 187]"] ;
 2 -> 4 ;
-5 [label="n_restaurant <= -0.7274\nentropy = 0.8113\nsamples = 4\nvalue = [1, 3]"] ;
-1 -> 5 ;
-6 [label="entropy = 0.0\nsamples = 1\nvalue = [1, 0]"] ;
-5 -> 6 ;
-7 [label="entropy = 0.0\nsamples = 3\nvalue = [0, 3]"] ;
-5 -> 7 ;
-8 [label="n_bar <= -0.4586\nentropy = 0.2099\nsamples = 332\nvalue = [321, 11]"] ;
-0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-9 [label="entropy = 0.0\nsamples = 130\nvalue = [130, 0]"] ;
-8 -> 9 ;
-10 [label="avr_electronics_store <= 2.2178\nentropy = 0.305\nsamples = 202\nvalue = [191, 11]"] ;
-8 -> 10 ;
-11 [label="entropy = 0.246\nsamples = 196\nvalue = [188, 8]"] ;
-10 -> 11 ;
-12 [label="entropy = 1.0\nsamples = 6\nvalue = [3, 3]"] ;
-10 -> 12 ;
+5 [label="entropy = 0.9993\nsamples = 229\nvalue = [118, 111]"] ;
+4 -> 5 ;
+6 [label="entropy = 0.8073\nsamples = 101\nvalue = [25, 76]"] ;
+4 -> 6 ;
 }
